@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/bill"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:layout_marginLeft="80dp"
+         />
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginLeft="75dp"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="94dp"
+            android:layout_height="85dp"
+            android:background="@mipmap/electricity"
+        />
+
+        <Button
+            android:id="@+id/btnWater"
+            android:layout_width="96dp"
+            android:layout_height="86dp"
+            android:background="@mipmap/water" />
+
+        <Button
+            android:id="@+id/btnCabletv"
+            android:layout_width="96dp"
+            android:layout_height="86dp"
+            android:background="@mipmap/cabletv" />
+
+        <Button
+            android:id="@+id/btnTelecoms"
+            android:layout_width="96dp"
+            android:layout_height="90dp"
+            android:background="@mipmap/telecoms" />
+
+        <Button
+            android:id="@+id/dtnDonations"
+            android:layout_width="96dp"
+            android:layout_height="86dp"
+
+            android:background="@mipmap/donations" />
+
+        <Button
+            android:id="@+id/btnInsurance"
+            android:layout_width="98dp"
+            android:layout_height="85dp"
+            android:background="@mipmap/insurance"
+
+            />
+
+        <Button
+            android:id="@+id/btnGovernment"
+            android:layout_width="98dp"
+            android:layout_height="85dp"
+            android:background="@mipmap/government" />
+
+        <Button
+            android:id="@+id/btnOthers"
+            android:layout_width="98dp"
+            android:layout_height="88dp"
+            android:background="@mipmap/others" />
+
+
+    </GridLayout>
+
+</RelativeLayout>
