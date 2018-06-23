@@ -12,7 +12,8 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
         android:text="@string/tVwallet"
         android:textColor="@android:color/holo_red_dark"
         android:textEditNoPasteWindowLayout="?attr/actionModeSplitBackground"
@@ -22,7 +23,8 @@
         android:id="@+id/balance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
         android:text="@string/balance"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="24sp"
@@ -34,7 +36,7 @@
     android:columnCount="4"
     android:layout_height="80dp"
     android:layout_width="400dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="65dp"
     android:layout_gravity="center"
     android:orientation="horizontal"
     >
@@ -43,7 +45,7 @@
         android:id="@+id/transaction"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_marginLeft="100dp"
+        android:layout_marginLeft="70dp"
         android:background="@mipmap/transactions"
         />
 
@@ -74,11 +76,11 @@
 
     <GridLayout android:layout_height="400dp"
        android:layout_width="400dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="150dp"
         android:columnCount="4"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="20dp"
         android:paddingLeft="10dp"
         >
 
@@ -87,14 +89,15 @@
         android:layout_height="80dp"
         android:text="BP"
 
-
     />
+
 
 
         <Button android:id="@+id/CreditCard"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:text="CC"
+
             />
 
         <Button android:id="@+id/MobileLoad"
